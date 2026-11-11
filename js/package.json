@@ -1,5 +1,5 @@
 {
-  "name": "ipsofactura",
+  "name": "@ipsofactura/sdk",
   "version": "0.1.0",
   "description": "Cliente oficial de Ipsofactura — timbrado CFDI 4.0 para México",
   "main": "./dist/index.js",

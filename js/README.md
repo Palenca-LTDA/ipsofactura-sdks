@@ -1,4 +1,4 @@
-# ipsofactura
+# @ipsofactura/sdk
 
 Cliente oficial de **Ipsofactura** para JavaScript y TypeScript — timbrado CFDI 4.0 para México.
 
@@ -9,7 +9,7 @@ Requiere Node.js 18 o superior (usa `fetch` nativo).
 ## Instalación
 
 ```bash
-npm install ipsofactura
+npm install @ipsofactura/sdk
 ```
 
 ---
@@ -17,7 +17,7 @@ npm install ipsofactura
 ## Inicio rápido
 
 ```ts
-import IpsofacturaClient from "ipsofactura";
+import IpsofacturaClient from "@ipsofactura/sdk";
 
 const client = new IpsofacturaClient(process.env.IPSO_API_KEY!);
 const cfdi = await client.cfdi.timbrar({ /* payload CFDI 4.0 */ });
@@ -196,7 +196,7 @@ await client.webhooks.test(webhook.id);
 ### Verificar firma de webhook
 
 ```ts
-import { verifyWebhookSignature } from "ipsofactura";
+import { verifyWebhookSignature } from "@ipsofactura/sdk";
 
 // En tu endpoint receptor (Express, Fastify, etc.)
 app.post("/webhook", express.raw({ type: "application/json" }), (req, res) => {
@@ -222,7 +222,7 @@ app.post("/webhook", express.raw({ type: "application/json" }), (req, res) => {
 ## Manejo de errores
 
 ```ts
-import IpsofacturaClient, { IpsofacturaError } from "ipsofactura";
+import IpsofacturaClient, { IpsofacturaError } from "@ipsofactura/sdk";
 
 try {
   await client.cfdi.timbrar({ /* ... */ });

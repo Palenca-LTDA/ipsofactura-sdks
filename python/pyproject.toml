@@ -28,9 +28,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Palenca-LTDA/ipsofactura-sdk"
-Repository = "https://github.com/Palenca-LTDA/ipsofactura-sdk"
-"Bug Tracker" = "https://github.com/Palenca-LTDA/ipsofactura-sdk/issues"
+Homepage = "https://github.com/Palenca-LTDA/ipsofactura-sdks"
+Repository = "https://github.com/Palenca-LTDA/ipsofactura-sdks"
+"Bug Tracker" = "https://github.com/Palenca-LTDA/ipsofactura-sdks/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
