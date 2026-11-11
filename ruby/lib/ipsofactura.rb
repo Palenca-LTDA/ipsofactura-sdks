@@ -1,0 +1,5 @@
+require_relative "ipsofactura/client"
+require_relative "ipsofactura/resources/cfdi"
+require_relative "ipsofactura/resources/empresas"
+require_relative "ipsofactura/resources/webhooks"
+require_relative "ipsofactura/webhook_utils"

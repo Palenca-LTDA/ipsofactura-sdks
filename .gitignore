@@ -1,0 +1,28 @@
+# C — binarios compilados
+c/*.o
+c/example
+
+# Java — Gradle cache y build
+java/.gradle/
+java/build/
+java/gradlew
+java/gradle/
+
+# JS/TS — node_modules y dist compilado
+js/node_modules/
+js/dist/
+
+# Python — cache y entorno virtual
+python/__pycache__/
+python/ipsofactura/__pycache__/
+python/*.egg-info/
+python/.venv/
+python/dist/
+python/build/
+
+# Ruby — gems instaladas localmente
+ruby/.bundle/
+ruby/vendor/
+
+# macOS
+.DS_Store

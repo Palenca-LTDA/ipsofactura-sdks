@@ -1,0 +1,8 @@
+{
+  "name": "ipsofactura/ipsofactura-php",
+  "description": "Cliente oficial de Ipsofactura — timbrado CFDI 4.0 para México",
+  "type": "library",
+  "license": "MIT",
+  "autoload": { "psr-4": { "Ipsofactura\\": "src/" } },
+  "require": { "php": ">=8.0" }
+}
